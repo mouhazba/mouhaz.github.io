@@ -1,0 +1,17 @@
+# Classify files as HTML, CSS, JS, PHP
+*.php linguist-language=HTML
+*.css linguist-language=CSS
+*.js linguist-language=JavaScript
+
+# Mark Markdown files
+*.md linguist-language=Markdown
+
+# Avoid classifying files as "Hack"
+*.php linguist-detectable=true
+
+# Handle binary files (images, etc.)
+images/* binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
